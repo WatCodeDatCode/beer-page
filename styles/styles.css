@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #31393C;
+}
+
+h1, h2 {
+    color: #E24E1B;
+}
+
+div {
+    background-color: #F9EAE1;
+}
+
+button {
+    padding: 0.5em 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+button.beer {
+    font-size: 1.2em;
+    background-color: #5995ED;
+    color: #F9EAE1;
+}
+
+button.picture {
+    font-size: 1.2em;
+    background-color: #26C485;
+    color: #F9EAE1;
+}
+
+button:hover {
+    background-color: #31393C;
+    color: #F9EAE1;
+}
+
+img {
+    max-height: 300px;
+    margin: auto;
+}

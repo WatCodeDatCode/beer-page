@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Your beer</title>
+  </head>
+  <body>
+    <div class="container main mt-8 mx-auto m-4 p-3 text-center">
+      <h1 class="text-6xl font-bold mx-auto uppercase font-bold">Beers</h1>
+      <form id="search-form">
+        <div class="mx-auto w-1/2 border-b border-orange-700">
+          <input
+            id="name-input"
+            class="appearance-none bg-transparent border-none text-orange-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+            type="text"
+            placeholder="Search beer by name"
+            aria-label="Search by beer name"
+          />
+          <button
+            class="bg-orange-600 hover:bg-orange-800 border-orange-600 hover:border-orange-800 text-sm border-4 text-white py-1 px-2 rounded"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <div id="beers" class="m-4"></div>
+      <div class="container flex-around">
+        <button id="new-beer" class="mx-auto mr-5 beer text-center">
+          Show more
+        </button>
+      </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
