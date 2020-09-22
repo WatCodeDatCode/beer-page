@@ -10,17 +10,21 @@ body {
 }
 
 h1, h2 {
-    color: #E24E1B;
+    color: #9C6615;
 }
 
 div {
-    background-color: #F9EAE1;
+    background-color: #d3d3d3;
 }
 
 button {
     padding: 0.5em 2em;
     margin-bottom: 1em;
     font-weight: bold;
+}
+
+button.search {
+    background-color: #E24E1B;
 }
 
 button.beer {

@@ -12,10 +12,10 @@ const createBeerHtml = (beer) => {
   }
 
   const html = `
-      <h2 class="text-3xl m-3 font-bold">${beer.name}</h2>
+      <h2 class="text-4xl mb-5 font-bold">${beer.name}</h2>
 
       ${imageUrl ? `<img src="${imageUrl}">` : "No image available"}
-      <p class="m-3">${beer.description}</p>
+      <p class="m-8 text-lg">${beer.description}</p>
     `;
 
   return html;
